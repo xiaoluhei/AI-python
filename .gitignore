@@ -1,0 +1,16 @@
+# IDE
+.idea/
+*.iml
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
