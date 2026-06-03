@@ -31,16 +31,48 @@ print(type(s3))
 
 # 定义字符串 ----> It's very good
 # 转义字符 \' \" \n \t
-msg = 'It\'s very good'
-print(msg)
+# msg = 'It\'s very good'
+# print(msg)
+#
+# msg2 = "It's very good"
+# print(msg2)
+#
+# msg3 ="Hello 的意思是\"你好\""
+# print(msg3)
+#
+# msg4 = 'Hello 的意思是"你好"'
+# print(msg4)
+#
+# print("\t坚持进行python学习！\n\tgogogo!")# \n换行 \t代表缩进
 
-msg2 = "It's very good"
-print(msg2)
+# 字符串拼接
+# 字面量会自动拼接
+# s1 = "人生苦短" "我用Python" ", OK"
+# print(s1)
+#
+# msg1 = "人生苦短"
+# msg2 = "我用Python"
+# print("龟叔说: " + msg1 + "," + msg2)
+#
+# # 案例 -----> str(int数字) ----> 将int类型数据转为字符串
+# name = "lulu"
+# age = 24
+# pro = "人工智能"
+# hobby = "Python、AI"
+# message = "大家好，我是" + name + "，今年" + str(age) + "岁，学习的专业是" + pro +"，爱好" + hobby
+# print(message)
 
-msg3 ="Hello 的意思是\"你好\""
-print(msg3)
 
-msg4 = 'Hello 的意思是"你好"'
-print(msg4)
+# 字符串格式化 -----> 方式一 %s 占位符
+name = "lulu"
+age = 24
+pro = "人工智能"
+hobby = "Python、AI"
+print("大家好，我是%s，今年%s岁，学习的专业是%s，爱好%s" % (name, age, pro, hobby))
 
-print("\t坚持进行python学习！\n\tgogogo!")# \n换行 \t代表缩进
+# 字符串格式化 -----> 方式二 f{变量名/表达式} ------>推荐方式
+name = "lulu"
+age = 24
+pro = "人工智能"
+hobby = "Python、AI"
+print(f"大家好，我是{name}，今年{age}岁，学习的专业是{pro}，爱好%{hobby}")
