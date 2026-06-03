@@ -75,4 +75,4 @@ name = "lulu"
 age = 24
 pro = "人工智能"
 hobby = "Python、AI"
-print(f"大家好，我是{name}，今年{age}岁，学习的专业是{pro}，爱好%{hobby}")
+print(f"大家好，我是{name}，今年{age}岁，学习的专业是{pro}，爱好{hobby}")
